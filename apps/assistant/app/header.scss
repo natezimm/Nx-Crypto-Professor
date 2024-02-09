@@ -1,19 +1,30 @@
 .crypto-navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: absolute;
+    // top: 0;
+    // left: 0;
+    margin-left: -6px;
     z-index: 999;
     width: 100vw;
     min-width: 250px;
-    height: 100px;
-    background-color: #507DBC;
+    height: 60px;
+    background-color: #58b3c9;
     margin-bottom: 100px;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
 }
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #4b3a58, #794c73);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
 
 .crypto-title {
     padding-left: 20px;
-    padding-top: 5px;
-    color: #E5ECF4;
+    padding-bottom: 5px;
+    // color: linear-gradient(to left, #553c9a, #b393d3);
 }
 
 @media only screen and (max-width: 330px) {
@@ -26,8 +37,8 @@
 
 a.twitter {
     float: right;
-    position: fixed;
-    top: 25px;
+    position: absolute;
+    top: 14px;
     right: 0px;
     padding-right: 25px;
     text-decoration: none;

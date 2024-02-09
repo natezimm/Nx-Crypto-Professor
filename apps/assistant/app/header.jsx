@@ -6,7 +6,7 @@ export const Header = () => {
     <>
       <div className="crypto-navbar">
         <h1 className="crypto-title">Crypto Professor</h1>
-        <a href="https://twitter.com/defi_beats" className="fa fa-3x fa-twitter-square twitter"></a>
+        <a href="https://twitter.com/defi_beats" className="fa fa-2x fa-twitter-square twitter"></a>
       </div>
     </>
   );
