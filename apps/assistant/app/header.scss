@@ -1,0 +1,35 @@
+.crypto-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100vw;
+    min-width: 250px;
+    height: 100px;
+    background-color: #507DBC;
+    margin-bottom: 100px;
+}
+
+.crypto-title {
+    padding-left: 20px;
+    padding-top: 5px;
+    color: #E5ECF4;
+}
+
+@media only screen and (max-width: 330px) {
+    .crypto-title {
+        width: min-content;
+        padding-top: 0px;
+        margin-top: 13px;
+    }
+}
+
+a.twitter {
+    float: right;
+    position: fixed;
+    top: 25px;
+    right: 0px;
+    padding-right: 25px;
+    text-decoration: none;
+    color: #E5ECF4;
+}
