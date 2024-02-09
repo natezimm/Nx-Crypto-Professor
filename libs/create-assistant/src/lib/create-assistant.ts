@@ -4,7 +4,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { getOpenAI } from '@nx-ai-assistant/utils';
 
-const openAiKey = process.env['NX_OPENAI_KEY'];
+const openAiKey = process.env['OPENAI_KEY'];
 
 export async function createAssistant(): Promise<OpenAI.Beta.Assistants.Assistant> {
   const openai = getOpenAI(openAiKey);

@@ -7,8 +7,8 @@ import {
   waitForRunCompletion,
 } from '@nx-ai-assistant/utils';
 
-const openAiKey = process.env['NX_OPENAI_KEY'];
-const assistantId = process.env['NX_ASSISTANT_ID'];
+const openAiKey = process.env['OPENAI_KEY'];
+const assistantId = process.env['ASSISTANT_ID'];
 
 export const config = {
   runtime: 'edge',

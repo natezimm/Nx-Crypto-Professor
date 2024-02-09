@@ -1,10 +1,10 @@
 {
-  "name": "@nx-ai-assistant/source",
+  "name": "crypto-professor",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "build": "nx run assistant:build --prod",
-    "serve": "nx run assistant:serve --prod"
+    "serve": "nx run assistant:serve"
   },
   "private": true,
   "dependencies": {
