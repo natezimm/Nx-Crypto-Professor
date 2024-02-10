@@ -7,7 +7,7 @@
   "outputDirectory": "./dist/apps/assistant/.next",
   "functions": {
     "pages/api/**": {
-      "maxDuration": 120
+      "maxDuration": 10
     }
   }
 }
