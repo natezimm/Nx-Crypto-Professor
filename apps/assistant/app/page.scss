@@ -37,10 +37,21 @@ body {
   display: flex;
   flex-direction: column-reverse;
   overflow-y: auto;
-  height: 80%;
   padding: 20px;
   background-color: #fff;
   border-bottom: 1px solid #ddd;
+}
+
+@media (max-width:768px)  {
+  .message-display-area {
+    height: 75%;
+  }
+}
+
+@media (min-width:768px)  {
+  .message-display-area {
+    height: 80%;
+  }
 }
 
 .message {
