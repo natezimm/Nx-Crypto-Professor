@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "build": "nx run assistant:build --prod",
-    "serve": "nx run assistant:serve"
+    "serve": "nx run assistant:serve --host=0.0.0.0"
   },
   "private": true,
   "dependencies": {
