@@ -23,7 +23,8 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "assistant:build",
-        "dev": true
+        "dev": true,
+        "port": 10000
       },
       "configurations": {
         "development": {
