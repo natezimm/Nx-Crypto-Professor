@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 'use client';
 import { useEffect, useState } from 'react';
-import './page.css';
+import './page.scss';
 import {
   MessageContentText,
   ThreadMessage,

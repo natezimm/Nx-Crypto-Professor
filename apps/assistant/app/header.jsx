@@ -1,4 +1,4 @@
-import './header.css';
+import './header.scss';
 import 'font-awesome/css/font-awesome.min.css';
 
 export const Header = () => {
