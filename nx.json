@@ -60,16 +60,5 @@
       }
     }
   },
-  "nxCloudAccessToken": "MTIzNGZhN2YtZjIwZS00MTE5LWEyOWItYjAyZjdmMDMwMGU3fHJlYWQtd3JpdGU=",
-  "plugins": [
-    {
-      "plugin": "@nx/webpack/plugin",
-      "options": {
-        "buildTargetName": "build",
-        "previewTargetName": "preview",
-        "serveTargetName": "serve",
-        "serveStaticTargetName": "serve-static"
-      }
-    }
-  ]
+  "nxCloudAccessToken": "MTIzNGZhN2YtZjIwZS00MTE5LWEyOWItYjAyZjdmMDMwMGU3fHJlYWQtd3JpdGU="
 }
