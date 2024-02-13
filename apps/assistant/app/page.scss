@@ -43,10 +43,13 @@ body {
     left: 0;
     bottom: 0;
     top: 10%;
-    height: 100%;
+    height: calc(100vh - 100px);
   }
   .chat-box {
-    height: 85%;
+    position: fixed;
+    bottom: 0;
+    height: 75%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .chat-box .message-display-area {
     height: 80%;

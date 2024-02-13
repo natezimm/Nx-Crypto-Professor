@@ -8,6 +8,13 @@
     box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
 }
 
+@media only screen and (max-width: 767px) {
+    .crypto-navbar {
+        position: fixed;
+        top: 0;
+    }
+}
+
 .crypto-title {
     padding-left: 20px;
     padding-bottom: 5px;
@@ -31,7 +38,14 @@ a.twitter {
     position: absolute;
     top: 14px;
     right: 0px;
-    padding-right: 25px;
+    padding-right: 2rem;
     text-decoration: none;
     color: #E5ECF4;
+}
+
+@media only screen and (max-width: 767px) {
+    a.twitter {
+        position: fixed;
+        padding-right: 1rem;
+    }
 }
