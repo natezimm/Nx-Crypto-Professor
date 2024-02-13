@@ -53,7 +53,7 @@ body {
   }
   .chat-box .message-display-area {
     position: relative;
-    height: 84%;
+    height: calc(100% - 100px);
   }
   .message-input-form {
     position: fixed;
