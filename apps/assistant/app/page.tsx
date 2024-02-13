@@ -71,7 +71,6 @@ export default function Index() {
                   <p>
                     {message.role === 'user' ? 
                     <b>You:</b> : <b>Professor:</b>}
-                    {/* <b>{message.role}:</b> */}
                   </p>
                   <p>{(message.content as MessageContentText[])?.[0].text.value}</p>
                 </div>

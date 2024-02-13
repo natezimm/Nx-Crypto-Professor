@@ -1,8 +1,8 @@
 body {
   background-color: #FFFFFF;
   font-family: "Roboto";
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 .main-page {
@@ -31,6 +31,26 @@ body {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media only screen and (max-width: 767px) {  
+  .welcome-title {
+    font-size: medium;
+  }
+  .chat-container {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 10%;
+    height: 100%;
+  }
+  .chat-box {
+    height: 85%;
+  }
+  .chat-box .message-display-area {
+    height: 80%;
+  }
 }
 
 .message-display-area {
@@ -124,11 +144,24 @@ button:hover {
   animation: spin 2s linear infinite;
 }
 
+@media only screen and (max-width: 767px) {  
+  .logo {
+    background-image: url(../public/icon-50x50.png);
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (min-width: 768px) {  
+  .logo {
+    background-image: url(../public/icon-120x120.png);  
+    width: 120px;
+    height: 120px;
+  }
+}
+
 .logo {
-  background-image: url(../public/icon-120x120.png);
   background-repeat: no-repeat;
-  height: 120px;
-  width: 120px;
   margin: auto;
 }
 
